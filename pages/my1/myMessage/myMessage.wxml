@@ -1,0 +1,58 @@
+<view>
+  <view class="account1">
+    <view class="title">学号：</view>
+    <view class="content">{{name}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">姓名：</view>
+    <view class="content">{{realname}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">性别：</view>
+    <view class="content">{{gender}}</view>
+  </view>
+
+  <view class="hr"></view>  
+
+  <view class="account">
+    <view class="title">专业：</view>
+    <view class="content">{{major}}</view>
+  </view>
+  
+  <view class="hr"></view>  
+
+  <view class="account">
+    <view class="title">宿舍：</view>
+    <view class="content">{{dormitory}}</view>
+  </view>
+  
+  <view class="hr"></view>  
+
+  <view class="account">
+    <view class="title">编号：</view>
+    <view class="content">{{dornumber}}</view>
+  </view>
+  
+  <view class="hr"></view>  
+
+  <view class="account">
+    <view class="title">电话：</view>
+    <view class="content">{{tel}}</view>
+  </view>
+  
+  <view class="hr"></view>  
+
+    <view class="account">
+    <view class="title">老师：</view>
+    <view class="content">{{teacher}}</view>
+  </view>
+  
+  <view class="hr"></view>  
+
+</view>

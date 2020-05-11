@@ -1,0 +1,14 @@
+<view class='extern' wx:for="{{array}}">
+  <view class="left">
+    <image src="{{item.src}}" mode="aspectFit"></image>
+  </view>
+    <view class="right">
+      <view class="top">{{item.dormitory}}{{item.dornumber}}</view>
+      <view class="mid">{{item.tel}}</view>
+      <view class="bottom">{{item.describe}}</view>
+      <view class="final">状态：{{item.status}}</view>
+      <view style="border:1rpx solid {{color}};color:{{color}};" class="baoming" data-id="{{item._id}}" bindtap="delete">
+          删除
+      </view>
+    </view>
+</view>

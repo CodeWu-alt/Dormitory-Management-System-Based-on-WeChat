@@ -1,0 +1,19 @@
+<!-- 我的页签 -->
+<view class="contain">
+  <view class="userinfo">
+    <image wx:if="{{userimg}}" class="userinfo-avatar" src="{{userimg}}"/>
+    <text class="userinfo-nickname">账号:{{username}}</text>
+  </view>
+
+  <view style="height:20rpx;background:#eee;width:100%;"></view>
+
+  <block wx:for="{{items}}" wx:key="hello">
+    <view class="item" data-hi="{{item.url}}" bindtap="gotopage">
+        <image class="icon" src="{{item.icon}}"></image>
+        <label>{{item.text}}</label>
+        <image class="arrow" src="{{arrow}}"></image>
+    </view>
+  </block>
+  
+  <view class="end"></view>
+</view>

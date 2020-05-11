@@ -1,0 +1,30 @@
+
+ <view class="account1">
+    <view class="title">学号</view>
+    <!-- <view class="num"><input bindinput="inputAccount" placeholder="请输入学号"/></view> -->
+    <view>{{account}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">姓名</view>
+    <!-- <view class="num"> -->
+    <!-- <input bindinput="inputName" placeholder="请输入姓名"/></view> -->
+    <view>{{realname}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+
+  <!-- <view class="account">
+    <view class="title">电话</view>
+    <view class="num">
+    <input bindinput="inputTel" placeholder="留下你的电话号码"/></view>
+  </view> -->
+
+
+  
+  <button class="btn" type="primary" bindtap="update">确认</button> 
+
+  

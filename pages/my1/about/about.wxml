@@ -1,0 +1,13 @@
+<view class="contain">
+  <view class="title">关于我们</view>
+  <view class="content">【开发人员】</view>
+  <view class="content1">小吴同学独家制作</view>
+  <view class="content">【当前版本】</view>
+  <view class="content1">v1.0.0</view>
+  <view class="content">【主要用途】</view>
+  <view class="content1">该系统主要用于高校宿舍管理</view>
+  <view class="content">【更新日志】</view>
+  <view class="content1">暂无更新</view>
+  <view class="content">【联系方式】</view>
+  <view class="content1">12345678901(微信)</view>
+</view>

@@ -1,0 +1,5 @@
+<view class="title">{{dormitory}}优秀寝室</view>
+<view class="content" wx:for="{{dornums}}">
+  {{item}}
+</view>
+

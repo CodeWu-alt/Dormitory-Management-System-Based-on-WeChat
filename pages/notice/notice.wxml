@@ -1,0 +1,31 @@
+<view class="title">校园公告</view>
+<view class="content">
+  <view class="left">
+    <image src="/images/notice/check.jpg"></image>
+  </view>
+  <navigator url="/pages/notice1/check/check" bindtap="check">
+    <view class="right">
+      <view class="top">卫生检查</view>
+      <view class="mid">宿舍楼：{{dormitory}}</view>
+      <view class="bottom1">优秀寝室：</view>
+      <view style="border:1rpx solid {{color}};color:{{color}};" class="baoming">
+          查看详情
+      </view>
+    </view>
+  </navigator>
+</view>
+<view class="content">
+  <view class="left">
+    <image src="/images/notice/lost.jpg"></image>
+  </view>
+  <navigator url="/pages/notice1/lost/lost">
+    <view class="right">
+      <view class="top">失物招领</view>
+      <view class="mid">宿舍楼：{{dormitory}}</view>
+      <view class="bottom1">失物信息：</view>
+      <view style="border:1rpx solid {{color}};color:{{color}};" class="baoming">
+          查看详情
+      </view>
+    </view>
+  </navigator>
+</view>

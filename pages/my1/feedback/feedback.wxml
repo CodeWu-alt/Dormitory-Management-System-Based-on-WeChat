@@ -1,0 +1,10 @@
+<view class="contain">
+  <view class="up">
+    <button open-type="feedback">意见反馈</button>
+  </view>
+  <view class="down">
+  
+  </view>
+</view>
+
+

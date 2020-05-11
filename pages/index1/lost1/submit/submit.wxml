@@ -1,0 +1,62 @@
+
+ <view class="account1">
+    <view class="title">学号</view>
+    <!-- <view class="num"><input bindinput="inputAccount" placeholder="请输入学号"/></view> -->
+    <view>{{account}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">姓名</view>
+    <!-- <view class="num"> -->
+    <!-- <input bindinput="inputName" placeholder="请输入姓名"/></view> -->
+    <view>{{realname}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">宿舍</view>
+    <!-- <view class="num"><input bindinput="inputDormitory" placeholder="请输入所在宿舍"/></view> -->
+    <view>{{dormitory}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">编号</view>
+    <!-- <view class="num"> -->
+    <!-- <input bindinput="inputNum" placeholder="请输入宿舍号"/></view> -->
+    <view>{{number}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">电话</view>
+    <view class="num">
+    <input bindinput="inputTel" placeholder="留下你的电话号码"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">时间</view>
+    <view class="num">
+    <input bindinput="inputTime" placeholder="离开时间：2020/03/20"/></view>
+  </view>
+
+    <view class="hr"></view>
+
+    <view class="account">
+    <view class="title">描述</view>
+    <view class="num">
+    <input bindinput="inputDescribe" placeholder="描述离校原因"/></view>
+  </view>
+
+  <view class="hr"></view>
+  
+  <button class="btn" type="primary" bindtap="update">确认</button> 
+
+  

@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/my/my",
+    "pages/index/index",
+    "pages/notice/notice",
+    "pages/index1/repair/repair",
+    "pages/index1/exchange/exchange",
+    "pages/index1/lost/lost",
+    "pages/index1/out/out",
+    "pages/my1/myMessage/myMessage",
+    "pages/my1/recommend/recommend",
+    "pages/my1/about/about",
+    "pages/my1/feedback/feedback",
+    "pages/my1/modify/modify",
+    "pages/test/test",
+    "pages/notice1/check/check",
+    "pages/notice1/lost/lost",
+    "pages/index1/repair1/submit/submit",
+    "pages/index1/repair1/status/status",
+    "pages/index1/lost1/submit/submit",
+    "pages/index1/lost1/status/status",
+    "pages/index1/out1/submit/submit",
+    "pages/index1/out1/status/status",
+    "pages/index1/out1/night/night",
+    "pages/index1/exchange1/submit/submit",
+    "pages/index1/exchange1/status/status",
+    "pages/notice1/lost1/others/others",
+    "pages/notice1/lost1/lostcard/lostcard",
+    "pages/notice1/lost1/getcard/getcard",
+    "pages/notice1/lost1/lostcard1/lostcard1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index1.png"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "text": "公告",
+        "iconPath": "images/notice.png",
+        "selectedIconPath": "images/notice1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

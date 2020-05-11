@@ -1,0 +1,201 @@
+{
+	"description": "项目配置文件",
+	"cloudfunctionRoot": "cloud/",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.4",
+	"appid": "wx91e7fa5a921c71bb",
+	"projectname": "dormManage",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "故障报修",
+					"pathName": "pages/index1/repair/repair",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人信息",
+					"pathName": "pages/my1/myMessage/myMessage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改密码",
+					"pathName": "pages/my1/modify/modify",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "测试",
+					"pathName": "pages/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/my1/about/about",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "意见反馈",
+					"pathName": "pages/my1/feedback/feedback",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "公告",
+					"pathName": "pages/notice/notice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "失物招领",
+					"pathName": "pages/notice1/lost/lost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "优秀寝室",
+					"pathName": "pages/notice1/check/check",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提交故障",
+					"pathName": "pages/index1/repair1/submit/submit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "报修状态",
+					"pathName": "pages/index1/repair1/status/status",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "离校登记",
+					"pathName": "pages/index1/lost/lost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "离校登记提交",
+					"pathName": "pages/index1/lost1/submit/submit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的登记",
+					"pathName": "pages/index1/lost1/status/status",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "夜不归宿",
+					"pathName": "pages/index1/out/out",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "普通登记",
+					"pathName": "pages/index1/out1/submit/submit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "夜晚不归",
+					"pathName": "pages/index1/out1/night/night",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "换宿申请",
+					"pathName": "pages/index1/exchange/exchange",
+					"scene": null
+				}
+			]
+		}
+	}
+}

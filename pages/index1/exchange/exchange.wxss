@@ -1,0 +1,12 @@
+/* pages/notice1/lost/lost.wxss */
+.btn{
+  width: 90%;
+  margin-top:120px;
+  color: #999999;
+}
+
+.btn1 {
+  width: 90%;
+  margin-top:160px;
+  color: #999999;
+}

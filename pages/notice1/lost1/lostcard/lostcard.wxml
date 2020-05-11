@@ -1,0 +1,10 @@
+<view class='extern' wx:for="{{array2}}">
+  <view class="left">
+    <view class="top">学号：{{item.account}}</view>
+      <view class="mid">姓名：{{item.realname}}</view>
+      <view class="bottom">电话：{{item.tel}}</view>
+      <view class="final">描述：{{item.describe}}</view>
+  </view>
+</view>
+
+<button class="btn1"  bindtap="gotopage">丢卡了</button>

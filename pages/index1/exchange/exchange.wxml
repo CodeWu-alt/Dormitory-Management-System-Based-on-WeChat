@@ -1,0 +1,2 @@
+<button class="btn" type="primary" bindtap="gotopage1">换宿申请</button> 
+<button class="btn1" type="primary" bindtap="gotopage2">我的申请</button> 

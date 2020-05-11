@@ -1,0 +1,38 @@
+<!-- 轮播图效果 -->
+<view class="content">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <!-- <block wx:for="{{imgUrls}}" wx:key="hello">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block> -->
+    <swiper-item>
+        <image src="{{lunbo1}}" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+        <image src="{{lunbo2}}" class="slide-image" />
+    </swiper-item>
+    <swiper-item>
+        <image src="{{lunbo3}}" class="slide-image" />
+    </swiper-item>
+  </swiper>
+
+  <view class="line"></view>
+
+  <view class="item">
+    <view class="title">功能导航</view>
+    <view class="hr"></view>
+    <view class="unav">
+      <block wx:for="{{navs}}" wx:key="hello">
+        <view id="tapTest" class="navlist" data-hi="{{item.url}}" bindtap="gotopage">
+          <view class="navthumb">
+            <image src="{{item.image}}" mode="scaleToFill"></image>
+          </view>
+          <view>{{item.text}}</view>
+        </view>
+      </block>
+    </view> 
+  </view>
+
+</view>
+  

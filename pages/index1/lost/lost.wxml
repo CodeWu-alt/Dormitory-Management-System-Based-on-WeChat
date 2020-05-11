@@ -1,0 +1,2 @@
+<button class="btn" type="primary" bindtap="gotopage1">离校登记</button> 
+<button class="btn1" type="primary" bindtap="gotopage2">我的登记</button> 
