@@ -1,0 +1,40 @@
+
+  <view class="account1">
+    <view class="title">物品</view>
+    <view class="num"><input bindinput="inputName" placeholder="物品名"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">时间</view>
+    <view class="num">
+    <input bindinput="inputTime" placeholder="时间（2020/02/02）"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">宿舍</view>
+    <view class="num">
+    <input bindinput="inputDormitory" placeholder="当前所在宿舍"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">描述</view>
+    <view class="num">
+    <input bindinput="inputDescribe" placeholder="具体描述"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <button bindtap="upload">上传图片</button>
+  <view class="out">
+    <image src="{{imgUrl}}" mode="aspectFit"></image>
+  </view>
+  
+  <button class="btn" type="primary" bindtap="update">确认</button> 
+
+  

@@ -1,0 +1,2 @@
+<button class="btn" type="primary" bindtap="gotopage1">失物信息</button> 
+<button class="btn1" type="primary" bindtap="gotopage2">新增失物</button> 

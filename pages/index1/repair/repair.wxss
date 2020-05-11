@@ -1,0 +1,81 @@
+/* pages/notice1/lost/lost.wxss */
+.extern {
+  width: 750rpx;
+  height: 400rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.extern .left {
+  height: 400rpx;
+  width: 400rpx;
+}
+
+.extern .left image {
+  height: 400rpx;
+  width: 400rpx;
+}
+
+.extern .right {
+  height: 400rpx;
+  width:350rpx;
+  position: relative
+}
+
+.extern .right .top {
+  height: 50rpx;
+  width:350rpx;
+  margin-top:20rpx;
+  line-height: 50rpx;
+  font-size: 50rpx;
+  text-align: center;
+}
+
+.extern .right .mid {
+  height: 50rpx;
+  width:350rpx;
+  margin-top: 20rpx;
+  line-height: 50rpx;
+  font-size: 40rpx;
+  text-align: center;
+}
+
+.extern .right .bottom {
+  height: 100rpx;
+  width:350rpx;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  text-align: center
+}
+
+.extern .right .final {
+  height:50rpx;
+  width:350rpx;
+  margin-top: 20rpx;
+  line-height: 50rpx;
+}
+
+.baoming {
+    height: 50rpx;
+    width: 140rpx;
+    position: absolute;
+    right: 10rpx;
+    bottom: 10rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    font-size: 26rpx;
+}
+
+.baoming1 {
+    height: 50rpx;
+    width: 140rpx;
+    position: absolute;
+    left: 10rpx;
+    bottom: 10rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    font-size: 26rpx;
+}

@@ -1,0 +1,37 @@
+<view>
+  <view class="account1">
+    <view class="title">工号：</view>
+    <view class="content">{{name}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">姓名：</view>
+    <view class="content">{{realname}}</view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">性别：</view>
+    <view class="content">{{gender}}</view>
+  </view>
+
+  <view class="hr"></view>  
+
+  <view class="account">
+    <view class="title">宿舍：</view>
+    <view class="content">{{dormitory}}</view>
+  </view> 
+  
+  <view class="hr"></view>  
+
+  <view class="account">
+    <view class="title">电话：</view>
+    <view class="content">{{tel}}</view>
+  </view>
+  
+  <view class="hr"></view>  
+
+</view>

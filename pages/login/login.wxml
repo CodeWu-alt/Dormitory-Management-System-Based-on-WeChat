@@ -1,0 +1,24 @@
+<view>
+  <view class="university">
+    <image src="/images/university.jpg"></image>
+  </view>
+
+  <view class="notice">宿舍管理系统管理员端</view>
+
+  <view class="account1">
+    <view class="title">账号</view>
+    <view class="num"><input bindinput="inputName" placeholder="用户名"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">密码</view>
+    <view class="num">
+    <input bindinput="inputPassword" placeholder="请输入密码" password/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <button class="btn" type="primary" bindtap="login">登录</button> 
+</view>

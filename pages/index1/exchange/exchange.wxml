@@ -1,0 +1,3 @@
+<button class="btn" type="primary" bindtap="gotopage1">换宿处理</button> 
+<button class="btn1" type="primary" bindtap="gotopage2">修改宿舍</button> 
+<button class="btn1" type="primary" bindtap="gotopage3">我的处理</button> 

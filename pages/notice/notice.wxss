@@ -1,0 +1,63 @@
+
+.title{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750rpx;
+  height: 80rpx;
+  font-size: 60rpx;
+}
+
+.content {
+  margin-top: 40rpx;
+  width: 750rpx;
+  height: 400rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 350rpx;
+}
+
+.left image {
+  width: 350rpx;
+  height: 400rpx;
+}
+
+.right {
+  width: 400rpx;
+  position: relative;
+}
+
+.right .top {
+  width: 400rpx;
+  height: 130rpx;
+  text-align: center;
+  line-height: 100rpx;   
+}
+
+.right .mid {
+  width: 400rpx;
+  height: 140rpx;
+  line-height: 100rpx;
+}
+.right .bottom1 {
+  width: 400rpx;
+  height: 130rpx;
+  line-height: 100rpx;
+}
+
+.baoming {
+    height: 50rpx;
+    width: 140rpx;
+    position: absolute;
+    right: 10rpx;
+    bottom: 10rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border-radius: 20rpx;
+    font-size: 26rpx;
+}
+

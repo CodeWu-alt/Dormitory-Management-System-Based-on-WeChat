@@ -1,0 +1,58 @@
+/* 幻灯片部分 */
+.content {
+  font-family: "Microsoft YaHei";
+  background-color: #F0F0F0;
+  font-size: 25rpx;
+
+}
+
+.slide-image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.line {
+  height: 25rpx;
+  background: #eee;
+}
+
+.item {
+  border: 1px solid #cccccc;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding:12px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 40rpx;
+}
+
+.hr {
+  height: 1px;
+  background-color: #cccccc;
+  opacity: 0.2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.unav {
+  background: #fff;
+  height: 100rpx;
+  padding: 20rpx 0
+}
+
+.navlist {
+  float: left;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.navthumb image {
+  width: 38px;
+  height: 38px;
+}
+
+

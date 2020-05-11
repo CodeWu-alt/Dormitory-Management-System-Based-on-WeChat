@@ -1,0 +1,16 @@
+<view class='extern' wx:for="{{array}}">
+  <view class="left">
+    <view class="top">学号：{{item.account}}</view>
+      <view class="mid">姓名：{{item.realname}}</view>
+      <view class="bottom">旧宿舍：{{item.dormitory}}{{item.number}}</view>
+      <view class="final">新宿舍：{{item.dormitory}}{{item.newnumber}}</view>
+  </view>
+  <view class="right">
+    <view class="top">{{item.time}}</view>
+    <view class="mid">{{item.describe}}</view>
+    <view class="final"></view>
+    <view style="border:1rpx solid {{color}};color:{{color}};" class="baoming" data-id="{{item._id}}" bindtap="delete">
+        删除
+    </view>
+  </view>
+</view>

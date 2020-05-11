@@ -1,0 +1,20 @@
+.contain {
+  margin-top: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content1 {
+  display: flex;
+  justify-content: center;
+}

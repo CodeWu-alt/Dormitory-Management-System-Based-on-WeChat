@@ -1,0 +1,22 @@
+<view class='extern' wx:for="{{array}}">
+  <view class="left">
+    <view class="top">学号：{{item.account}}</view>
+      <view class="mid">姓名：{{item.realname}}</view>
+      <view class="bottom">宿舍：{{item.dormitory}}{{item.dornumber}}</view>
+      <view class="final">状态：{{item.status}}</view>
+      <view style="border:1rpx solid {{color}};color:{{color}};" class="baoming1" data-id="{{item._id}}" bindtap="change1">
+        同意
+    </view>
+    <view style="border:1rpx solid {{color}};color:{{color}};" class="baoming2" data-id="{{item._id}}" bindtap="change2">
+        不同意
+    </view>
+  </view>
+  <view class="right">
+    <view class="top">{{item.leavetime}}</view>
+    <view class="mid">{{item.describe}}</view>
+    <view class="final">{{item.tel}}</view>
+    <view style="border:1rpx solid {{color}};color:{{color}};" class="baoming" data-id="{{item._id}}" bindtap="delete">
+        删除
+    </view>
+  </view>
+</view>

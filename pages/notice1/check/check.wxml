@@ -1,0 +1,32 @@
+<view class="title">{{dormitory}}优秀寝室</view>
+<view class="content" wx:for="{{dornums}}">
+  {{item}}
+</view>
+<view class="title2">新的一周卫生检查</view>
+
+<view class="account1">
+    <view class="left">寝室1</view>
+    <view class="num">
+    <input bindinput="inputName1" placeholder="宿舍号"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="left">寝室2</view>
+    <view class="num">
+    <input bindinput="inputName2" placeholder="宿舍号"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+   <view class="account">
+    <view class="left">寝室3</view>
+    <view class="num">
+    <input bindinput="inputName3" placeholder="宿舍号"/></view>
+  </view>
+
+  <view class="hr"></view>
+
+  <button class="btn" type="primary" bindtap="check">确定</button> 
+
